@@ -1,0 +1,20 @@
+/* PlaceCard.css */
+
+/* Custom style for the Bootstrap carousel dots */
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0.5); /* Default color for inactive dots */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff; /* Active dot color (blue) */
+  }
+  
+  /* Optional: Make dots larger or add hover effects */
+  .carousel-indicators li:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  

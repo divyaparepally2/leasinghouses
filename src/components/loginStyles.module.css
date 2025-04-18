@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
+.loginFont {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inlineError {
+    color: red;
+}
+
+.mt1 {
+    margin-top: 1px;
+}
+
+.displayInline {
+    display: inline-flex;
+}
+
+.sign {
+    font-family: Cedarville Cursive;
+    font-size: 25pt;
+}
+
+.addPropertyInfo {
+    background: #FFF;
+    box-shadow: 0px 4px 4px #F5F5F5;
+    border-radius: 10px;
+    margin: 0 0 33px;
+    padding: 24px 24px 0;
+}
+
+.propertyForm {
+    margin: 0 0 24px;
+}
+
+.propertyButton {
+    width: 300px;
+    padding: 10px 50px 10px 50px;
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.propertyTypeButton {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* .propertyForm label {
+    color: #0E0E46;
+    font-weight: 500;
+    font-size: 14px;
+} */
+
+.propertyFormLabel {
+    color: #0E0E46;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.propertyFormInput {
+    margin: 0;
+    padding: 10px 15px;
+    /* background: #F6F6F9; */
+    color: #0E0E46;
+    /* border: 1px solid #f4f4f4; */
+    font-weight: normal;
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    min-height: 45px;
+    font-size: 14px;
+}
+
+
+.listingsDetails {
+    align-items: center;
+    background-color: rgb(246, 246, 250);
+    border-radius: 4px;
+    display: flex;
+    overflow: hidden;
+    min-width: 50px;
+    /* width: 100%; */
+    padding: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
